@@ -34,9 +34,9 @@ export const Modal: React.FC<ModalProps> = ({
        {description}
       </DialogDescription>
     </DialogHeader>
-    <DialogFooter>
-      <Button type="submit">Confirm</Button>
-    </DialogFooter>
+    <div>
+      {children}
+    </div>
   </DialogContent>
     </Dialog>
   );
